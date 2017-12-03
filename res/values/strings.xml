@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">polygraf1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Start">Start!</string>
+    <string name="testField">TestField!</string>
+    <string name="startAct">Start Service</string>
+    <string name="startBin">Bind Service</string>
+    
+    
+    <string name="desc">some warning</string>
+    
+    <string name="label">LABEL .. etc.</string>
+    
+    <string name="btn1">BUT_1</string>
+    <string name="btn2">BUT_2</string>
+    <string name="btn3">BUT_3</string>
+    <string name="btn4">BUT_4</string>
+    
+    <string name="val1">Value_1</string>
+    
+    <string name="otazky">Zadaj referenčné otázky</string>
+    
+
+</resources>

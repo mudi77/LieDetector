@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:background="#99ccee"
+    >
+
+   <LinearLayout
+       android:id="@+id/header_Parent"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#FBB917"
+       android:baselineAligned="false"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="10.0"
+           android:height="10dp"
+           android:background="#ee0000"
+           android:gravity="center" 
+           android:text="@+string/label" />
+
+       <LinearLayout
+           android:id="@+id/GLSsurface_Holder"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="right"
+           android:layout_marginTop="0dp"
+           android:layout_weight="0.00"
+           android:background="#0000aa"
+           android:orientation="horizontal" >
+
+           <LinearLayout
+               android:id="@+id/header"
+               android:layout_width="40dp"
+               android:layout_height="match_parent"
+               android:background="#306754"
+               android:orientation="vertical"
+               android:visibility="visible" >
+
+               <ImageView
+                   android:id="@+id/heart"
+                   android:layout_width="wrap_content"
+                   android:layout_height="30dp"
+                   android:contentDescription="@string/desc"
+                   android:padding="6dp"
+                   android:src="@drawable/heart" />
+
+               <ImageView
+                   android:id="@+id/hande"
+                   android:layout_width="wrap_content"
+                   android:layout_height="50dp"
+                   android:contentDescription="@string/desc"
+                   android:padding="4dp"
+                   android:src="@drawable/hande" />
+
+               <ImageView
+                   android:id="@+id/blood_pressure"
+                   android:layout_width="wrap_content"
+                   android:layout_height="40dp"
+                   android:contentDescription="@string/desc"
+                   android:src="@drawable/blood_pressure" />
+
+               <TextView
+                   android:id="@+id/textIntValue_5"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_margin="2sp"
+                   android:background="#ffffff"
+                   android:gravity="center" />
+
+               <TextView
+                   android:id="@+id/textIntValue_4"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_margin="2sp"
+                   android:background="#ffffff"
+                   android:gravity="center" />
+
+               <TextView
+                   android:id="@+id/textIntValue_3"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_margin="2sp"
+                   android:background="#ffffff"
+                   android:gravity="center" />
+
+               <TextView
+                   android:id="@+id/textIntValue_2"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_margin="2sp"
+                   android:background="#ffffff"
+                   android:gravity="center" />
+
+               <TextView
+                   android:id="@+id/textIntValue_1"
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_margin="2sp"
+                   android:background="#ffffff"
+                   android:gravity="center" />
+
+           </LinearLayout>
+           
+           <android.opengl.GLSurfaceView
+               android:id="@+id/cubes"
+               android:layout_width="match_parent"
+               android:layout_height="300dp"
+              />
+           
+       </LinearLayout>
+      	
+      	<LinearLayout
+      	    android:id="@+id/footer"
+      	    android:layout_width="match_parent"
+      	    android:layout_height="0dp"
+      	    android:layout_gravity="bottom"
+      	    android:layout_weight="25"
+      	    android:background="#99C68E"
+      	   
+      	    android:orientation="horizontal"
+      	    android:visibility="visible" >
+
+      	
+
+      		
+        
+        </LinearLayout>
+      	
+    </LinearLayout>
+
+</RelativeLayout>

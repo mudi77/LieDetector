@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+
+      	    android:id="@+id/bottom_menu"
+      	    android:layout_width="match_parent"
+      	    android:layout_height="match_parent"
+      	    android:layout_gravity="bottom"
+      	    android:background="#99C68E"
+      	    android:orientation="vertical"
+      	    android:visibility="visible" >
+   
+
+    <LinearLayout
+        android:id="@+id/settings_V"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:background="#ccC68E" >
+        
+        
+    </LinearLayout>       
+        
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:layout_weight="0.5" >    
+        
+        
+        	<Button
+      		    android:id="@+id/button1"
+      		    android:layout_width="80dp"
+      		    android:layout_height="70dp"
+      		    android:text="@+string/btn1"
+      		    android:layout_marginTop="35dp"
+      		    android:layout_marginLeft="10dp" />
+
+      		<Button
+      		    android:id="@+id/button2"
+      		    android:layout_width="80dp"
+      		    android:layout_height="70dp"
+      		    android:text="@+string/btn2"
+      		    android:layout_marginTop="35dp"
+      		    android:layout_marginLeft="10dp" />
+
+      		<ImageButton
+      		    android:id="@+id/btn_setting"      		    
+      		    android:background="@drawable/setting_selector"
+      		    android:layout_width="50dp"
+      		    android:layout_height="50dp"
+      		    android:text="@+string/btn4"
+      		    android:clickable="true"      		    
+        		
+      		    android:scaleType="centerCrop"
+      		    android:layout_marginTop="35dp"
+      		    android:layout_marginLeft="10dp"/>
+      		
+      		<ImageButton
+      		    android:id="@+id/btn_start"
+      		    android:background="@drawable/start_selector"
+      		    android:layout_width="50dp"
+      		    android:layout_height="50dp"
+      		    android:text="@+string/btn3"
+      		    android:clickable="true"      		    
+      		    
+      		    android:scaleType="centerCrop"
+      		    android:layout_marginTop="35dp"
+      		    android:layout_marginLeft="10dp" />
+        
+        
+    </LinearLayout>   
+
+</LinearLayout>
