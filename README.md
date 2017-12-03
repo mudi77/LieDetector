@@ -6,6 +6,7 @@ Lie detector as bachelor thesis work
   - Android
   - Arduino
   - OpenGLES
+  - connection via ADB driver from 2.3 v
   - PCB Design
 
 > measurement : Breath frequency, Heart beat rate and Skin galvanic resistance 
