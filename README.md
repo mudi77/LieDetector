@@ -11,7 +11,7 @@ Lie detector as bachelor thesis work
 
 > measurement : Breath frequency, Heart beat rate and Skin galvanic resistance 
 
-### Tech : 
+### Tech stack : 
 
 * Java, Android studio, Arduino Sketch
 
